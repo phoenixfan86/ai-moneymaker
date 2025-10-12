@@ -28,7 +28,7 @@
 	left: -140px;
 	width: 200px;
 	height: 200px;
-	background-image: url('./img/question-big.png');
+	background-image: url('/img/question-big.png');
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -40,7 +40,7 @@
 	right: -180px;
 	width: 230px;
 	height: 230px;
-	background-image: url('./img/question-big-2.png');
+	background-image: url('/img/question-big-2.png');
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -60,7 +60,7 @@
 	left: 0px;
 	width: 120px;
 	height: 120px;
-	background-image: url('./img/box.png');
+	background-image: url('/img/box.png');
 	background-position: center;
 }
 

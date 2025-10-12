@@ -11,7 +11,7 @@
 	border-radius: 20px;
 	backdrop-filter: blur(4px);
 	background-color: var(--bg-07);
-	background-image: url('./img/installment-bg.png');
+	background-image: url('/img/installment-bg.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;

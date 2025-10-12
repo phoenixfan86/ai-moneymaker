@@ -1,6 +1,6 @@
 .packages {
 	color: #fff;
-	background-image: url('./img/packages-bg.png');
+	background-image: url('/img/packages-bg.png');
 	background-repeat: no-repeat;
 	background-size: 40%;
 	background-position: -80px -550px;
