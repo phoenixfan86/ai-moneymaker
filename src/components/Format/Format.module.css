@@ -1,0 +1,72 @@
+.format {
+	background-color: #fff;
+	padding: 122px 119px;
+}
+
+.format__info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 12px 12px 12px 17px;
+	border-radius: 20px;
+	background-color: var(--primary-color);
+}
+
+.format__info span {
+	color: #fff;
+	font-weight: 500;
+}
+
+.format__infoImg {
+	position: relative;
+}
+
+.format__infoImg::before {
+	content: '';
+	position: absolute;
+	top: -8px;
+	left: -140px;
+	width: 200px;
+	height: 200px;
+	background-image: url('./img/question-big.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.format__infoImg::after {
+	content: '';
+	position: absolute;
+	top: -33px;
+	right: -180px;
+	width: 230px;
+	height: 230px;
+	background-image: url('./img/question-big-2.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.format__infoBonus {
+	position: relative;
+	max-width: 490px;
+	padding: 20px 24px 16px 20px;
+	border-radius: 20px;
+	background-color: var(--bg-05);
+}
+
+.format__infoBonus::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 120px;
+	height: 120px;
+	background-image: url('./img/box.png');
+	background-position: center;
+}
+
+.format__infoBonus h3 {
+	margin-left: 100px;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 1;
+}

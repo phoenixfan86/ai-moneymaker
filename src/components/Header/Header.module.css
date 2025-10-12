@@ -1,0 +1,41 @@
+header {
+	margin: 22px 100px 0 100px;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__menu {
+	display: flex;
+	gap: 40px;
+	margin: 16px 0;
+}
+
+.header__link {
+	font-size: 15px;
+	font-weight: 500;
+	color: var(--text-03);
+	transition: color 0.5s ease;
+}
+
+.header__link:hover {
+	font-weight: 600;
+	color: var(--primary-color);
+}
+
+.header__button {
+	padding: 18px 60px;
+	font-weight: 700;
+	color: var(--text-01);
+	border: 1px solid var(--text-01);
+	border-radius: 10px;
+	transition: all 0.5s ease-in-out;
+}
+
+.header__button:hover {
+	color: #000;
+	background-color: #fff;
+}

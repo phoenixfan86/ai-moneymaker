@@ -1,0 +1,37 @@
+.countdown {
+	display: flex;
+	gap: 6px;
+	align-items: center;
+	margin-top: 17px;
+}
+
+.countdown__item {
+	width: 61px;
+	height: 61px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	background-color: var(--bg-05);
+}
+
+.countdown__item span {
+	color: black !important;
+}
+
+.countdown__value {
+	font-size: 30px;
+	font-weight: 900 !important;
+	line-height: 1 !important;
+}
+
+.countdown__label {
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 1;
+}
+
+.countdown__separator {
+	font-size: 30px;
+}

@@ -1,0 +1,102 @@
+.installment {
+	padding: 47px 37px;
+	color: #fff;
+}
+
+.installment__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 132px 62px;
+	border-radius: 20px;
+	backdrop-filter: blur(4px);
+	background-color: var(--bg-07);
+	background-image: url('./img/installment-bg.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.installment__info {
+	width: 412px;
+	font-size: 20px;
+}
+
+.installment__info h2 {
+	font-size: 46px;
+	font-weight: 800;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+
+.installment__info h2 span {
+	color: var(--primary-color);
+}
+
+.installment__info p {
+	line-height: 1.5;
+	color: var(--text-03);
+	margin-right: 40px;
+}
+
+.installment__info p span {
+	font-weight: 700;
+	color: var(--primary-color);
+}
+
+.installment__offerValid {
+	padding: 33px 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20px;
+	backdrop-filter: blur(38px);
+	background-color: var(--bg-08);
+}
+
+.installment__day {
+	font-size: 142px;
+	font-weight: 900;
+	line-height: 1;
+	color: var(--primary-color);
+}
+
+.installment__month {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.installment__howTo {
+	width: 302px;
+	margin-left: 100px;
+}
+
+.installment__howTo h4 {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.installment__howToList {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.installment__howToList li {
+	position: relative;
+	margin-left: 25px;
+}
+
+.installment__howToList li::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: -25px;
+	transform: translateY(-50%);
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: var(--primary-color);
+}

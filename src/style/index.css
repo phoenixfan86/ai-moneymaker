@@ -1,0 +1,77 @@
+/*-- Color --*/
+:root {
+	--bg-01: rgba(18, 18, 18, 1);
+	--bg-02: rgba(35, 35, 38, 1);
+	--bg-03: rgba(244, 245, 247, 1);
+	--bg-04: rgba(139, 87, 194, 0.2);
+	--bg-05: rgba(232, 221, 243, 1);
+	--bg-06: rgb(218, 206, 235);
+	--bg-07: rgba(23, 23, 23, 1);
+	--bg-08: rgba(255, 255, 255, 0.01);
+	--primary-color: rgba(139, 87, 194, 1);
+	--color-01: rgba(231, 208, 255, 1);
+	--color-02: rgba(255, 126, 242, 1);
+	--color-03: rgba(254, 203, 0, 1);
+	--color-04: rgba(254, 168, 0, 1);
+	--color-05: rgba(91, 154, 255, 1);
+	--color-06: rgba(0, 0, 0, 0.2);
+	--color-07: rgba(255, 255, 255, 0.3);
+	--color-08: rgba(3, 19, 54, 0.2);
+	--color-09: rgba(255, 255, 255, 0.1);
+	--text-01: rgba(255, 255, 255, 1);
+	--text-02: rgba(255, 255, 255, 0.9);
+	--text-03: rgba(255, 255, 255, 0.8);
+	--text-04: rgba(255, 255, 255, 0.7);
+	--text-06: rgba(0, 0, 0, 1);
+	--text-07: rgba(0, 0, 0, 0.8);
+}
+/*-- End Color --*/
+
+/*-- Font --*/
+@font-face {
+	font-family: 'Gilroy';
+	src: url('./fonts/Gilroy/Gilroy-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('./fonts/Gilroy/Gilroy-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('./fonts/Gilroy/Gilroy-Semibold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('./fonts/Gilroy/Gilroy-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('./fonts/Gilroy/Gilroy-Extrabold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('./fonts/Gilroy/Gilroy-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+/*-- End Font --*/
+
+body {
+	width: 1440px;
+	font-family: 'Gilroy', serif;
+	background-color: var(--bg-01);
+}
+
+button {
+	font-family: 'Gilroy', serif;
+}

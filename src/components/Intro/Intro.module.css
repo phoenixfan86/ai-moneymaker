@@ -1,0 +1,199 @@
+.intro {
+	color: var(--text-01);
+	margin: 36px 100px 0 100px;
+	background-image: url('./img/intro-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.intro__container {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
+.intro__content {
+	display: flex;
+	gap: 37px;
+}
+
+.intro__info {
+	max-width: 500px;
+	display: flex;
+	gap: 40px;
+	flex-direction: column;
+}
+
+.intro__info p {
+	font-size: 26px;
+}
+
+.intro__header {
+	margin-bottom: 13px;
+}
+
+.intro__badges {
+	display: flex;
+	gap: 37px;
+}
+
+.intro__badge {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.intro__badgeIcon {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background-color: var(--color-07);
+}
+
+.intro__badgeText {
+	font-weight: 600;
+}
+
+.intro__title {
+	display: flex;
+	flex-direction: column;
+}
+
+.intro__titleHeader {
+	display: flex;
+	gap: 17px;
+}
+
+.intro__titleFirst {
+	font-size: 241px;
+	font-weight: 700;
+	color: var(--primary-color);
+	line-height: 0.85;
+	text-transform: uppercase;
+}
+
+.intro__title h1 {
+	font-size: 70px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.intro__quote {
+	width: 250px;
+	font-size: 16px !important;
+	color: var(--text-04);
+	line-height: 1.5;
+	margin-top: 13px;
+}
+
+.intro__btnContainer {
+	margin-top: 84px;
+}
+
+.intro__button {
+	padding: 18px 60px;
+	font-weight: 700;
+	color: var(--text-01);
+	background-color: var(--primary-color);
+	border-radius: 8px;
+	margin-top: 44px;
+	transition: all 0.5s ease-in;
+}
+
+.intro__button:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.intro__imgBlock {
+	position: relative;
+	width: 100%;
+}
+
+.intro__firstImg {
+	position: relative;
+	left: 10px;
+	width: 417px;
+}
+
+.intro__firstImg::before {
+	content: '';
+	position: absolute;
+	top: 33px;
+	right: 24px;
+	width: 164px;
+	height: 147px;
+	background-image: url('./img/brain.png');
+}
+
+.intro__firstImg::after {
+	content: '';
+	position: absolute;
+	bottom: 35px;
+	left: 32px;
+	width: 151px;
+	height: 145px;
+	background-image: url('./img/object.png');
+}
+
+.intro__secondImg {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.intro__roundImg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 244px;
+	height: 244px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(
+		148.8deg,
+		#80ebf1 1.24%,
+		#51a5cd 33.08%,
+		#50569e 62.62%,
+		#ce69dd 99.45%
+	);
+	border-radius: 50%;
+}
+
+.intro__roundImg img {
+	width: 186px;
+	mix-blend-mode: color-dodge;
+}
+
+.intro__secondImg img {
+	width: 457px;
+	height: 455px;
+}
+
+.intro__speakers {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.intro__footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.intro__subtitle {
+	width: 639px;
+	font-size: 50px;
+	font-weight: 800;
+	text-align: center;
+}
+
+.intro__subtitle span {
+	color: var(--primary-color);
+}
