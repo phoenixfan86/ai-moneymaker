@@ -25,7 +25,7 @@ const Header = () => {
               <a href="#syllabus" className={styles.header__link}>Програма</a>
             </li>
             <li>
-              <a href="#" className={styles.header__link}>Відгуки</a>
+              <a href="/" className={styles.header__link}>Відгуки</a>
             </li>
             <li>
               <a href="#format" className={styles.header__link}>Записатись</a>
