@@ -54,7 +54,7 @@ const Footer = () => {
               <ul className={styles.footer__menuItems}>
                 <li><a href="#">Головна</a></li>
                 <li><a href="#">Блог</a></li>
-                <li><a href="#">Про нас</a></li>
+                <li><a href="/">Про нас</a></li>
                 <li><a href="#">Навчання</a></li>
               </ul>
             </nav>

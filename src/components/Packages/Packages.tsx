@@ -1,4 +1,4 @@
-import styles from './Packages.module.css';
+import styles from './packages.module.css';
 import packages from '../../data/packages.json'; // Інформація про пакети на курсу
 
 const Packages = () => {
