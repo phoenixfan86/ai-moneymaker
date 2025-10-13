@@ -112,12 +112,15 @@
 .intro__imgBlock {
 	position: relative;
 	width: 100%;
+	background-image: url('/img/union2.png');
+	background-repeat: no-repeat;
+	background-position: bottom 0 right 0;
 }
 
 .intro__firstImg {
 	position: relative;
-	left: 10px;
-	width: 417px;
+	left: 0;
+	max-width: 417px;
 }
 
 .intro__firstImg::before {
@@ -138,12 +141,6 @@
 	width: 151px;
 	height: 145px;
 	background-image: url('/img/object.png');
-}
-
-.intro__secondImg {
-	position: absolute;
-	bottom: 0;
-	right: 0;
 }
 
 .intro__roundImg {
@@ -170,11 +167,6 @@
 	mix-blend-mode: color-dodge;
 }
 
-.intro__secondImg img {
-	width: 457px;
-	height: 455px;
-}
-
 .intro__speakers {
 	position: absolute;
 	top: 0;
@@ -189,7 +181,6 @@
 }
 
 .intro__subtitle {
-	width: 639px;
 	font-size: 50px;
 	font-weight: 800;
 	text-align: center;
@@ -197,4 +188,55 @@
 
 .intro__subtitle span {
 	color: var(--primary-color);
+}
+
+@media (max-width: 425px) {
+	.intro {
+		padding: 36px 16px;
+	}
+
+	.intro__content {
+		flex-direction: column;
+	}
+
+	.intro__titleFirst {
+		font-size: 200px;
+	}
+
+	.intro__title h1 {
+		font-size: 58px;
+	}
+
+	.intro__quote {
+		width: auto;
+	}
+
+	.intro__btnContainer {
+		margin-top: 64px;
+		text-align: center;
+	}
+
+	.intro__imgBlock {
+		background-image: none;
+	}
+
+	.intro__firstImg {
+		display: none;
+	}
+
+	.intro__roundImg {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 344px;
+		height: 344px;
+	}
+
+	.intro__speakers {
+		position: relative;
+	}
+
+	.intro__subtitle {
+		font-size: 36px;
+	}
 }

@@ -9,6 +9,7 @@
 	--bg-07: rgba(23, 23, 23, 1);
 	--bg-08: rgba(255, 255, 255, 0.01);
 	--primary-color: rgba(139, 87, 194, 1);
+	--primary-color-02: rgba(139, 87, 194, 0.1);
 	--color-01: rgba(231, 208, 255, 1);
 	--color-02: rgba(255, 126, 242, 1);
 	--color-03: rgba(254, 203, 0, 1);
@@ -66,8 +67,13 @@
 }
 /*-- End Font --*/
 
+/*- * {
+	outline: 1px solid red;
+} -*/
+
 body {
-	width: 1440px;
+	max-width: 1440px;
+	width: 100%;
 	font-family: 'Gilroy', serif;
 	background-color: var(--bg-01);
 }

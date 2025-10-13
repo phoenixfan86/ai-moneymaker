@@ -49,9 +49,6 @@ const Intro = () => {
             <div className={styles.intro__firstImg}>
               <img src="./img/union.png" alt="img_1" />
             </div>
-            <div className={styles.intro__secondImg}>
-              <img src="./img/union2.png" alt="img_2" />
-            </div>
             <div className={styles.intro__roundImg}>
               <img src="./img/hand.png" alt="img_3" />
             </div>

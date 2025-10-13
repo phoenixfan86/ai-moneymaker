@@ -296,3 +296,71 @@ thead {
 .table__proposal p {
 	font-size: 12px;
 }
+
+@media (max-width: 425px) {
+	.table__content {
+		display: block;
+		overflow-x: auto;
+		width: 100%;
+	}
+
+	.table__content table {
+		min-width: 900px;
+	}
+
+	.table__headTitle {
+		font-size: 34px;
+		padding-right: 0;
+		vertical-align: middle;
+	}
+
+	.table__rowItem {
+		padding: 16px;
+	}
+
+	.standardHead,
+	.proHead,
+	.premiumHead {
+		padding: 30px 20px;
+	}
+
+	.standardHead {
+		font-size: 22px;
+	}
+
+	.standardHead::before,
+	.premiumHead::before {
+		top: -10px;
+		font-size: 10px;
+	}
+
+	.standardHead .table__planInfo {
+		margin-top: 40px;
+	}
+
+	.premiumHead .table__planInfo {
+		margin-top: 40px;
+	}
+
+	.proHead {
+		width: 240px;
+		height: 160px;
+		font-size: 64px;
+	}
+
+	.proHead::before {
+		box-shadow: none;
+	}
+
+	.proHead::after {
+		top: 0;
+		right: 0;
+		height: auto;
+		border-radius: 0px 20px 0 20px;
+		z-index: 0;
+	}
+
+	.table__itemContent {
+		font-size: 14px;
+	}
+}

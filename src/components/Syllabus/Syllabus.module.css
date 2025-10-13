@@ -262,10 +262,16 @@
 }
 
 .syllabus__submitBtnContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin-top: 48px;
 }
 
 .syllabus__btnContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
 }
 
@@ -279,4 +285,134 @@
 	line-height: 1;
 	color: #fff;
 	background-color: var(--primary-color);
+}
+
+@media (max-width: 425px) {
+	.syllabus__container {
+		padding: 0;
+	}
+
+	.syllabus__header {
+		flex-direction: column;
+		gap: 30px;
+		padding: 36px 16px;
+		margin-bottom: 0;
+	}
+
+	.syllabus__title {
+		text-align: center;
+	}
+
+	.syllabus__title h2 {
+		font-size: 30px;
+		margin-bottom: 12px;
+	}
+
+	.syllabus__title p {
+		font-size: 16px;
+	}
+
+	.syllabus__info {
+		text-align: center;
+		font-weight: 700;
+	}
+
+	.syllabus__itemHeader {
+		position: relative;
+		padding: 20px 16px;
+	}
+
+	.syllabus__itemHeaderLeft h2 {
+		font-size: 22px;
+	}
+
+	.syllabus__itemHeaderBadges {
+		gap: 8px;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.syllabus__itemHeaderBadge {
+		width: 165px;
+		gap: 8px;
+		padding: 6px 16px 6px 8px;
+		font-size: 14px;
+		line-height: 1;
+	}
+
+	.syllabus__itemHeaderBadge img {
+		width: 30px;
+		height: 30px;
+	}
+
+	.syllabus__itemHeaderBadge:nth-child(2) img {
+		margin-left: 4px;
+	}
+
+	.syllabus__itemHeaderRight {
+		position: absolute;
+		bottom: 20px;
+		right: 17px;
+		gap: 16px;
+	}
+
+	.syllabus__moreBtn {
+		width: 80px;
+		height: 80px;
+		font-size: 14px;
+	}
+
+	.syllabus__itemBody {
+		padding: 16px 16px 40px 16px;
+		flex-direction: column;
+		gap: 24px;
+	}
+
+	.syllabus__itemBody h3 {
+		font-size: 18px;
+	}
+
+	.syllabus__moduleLessons {
+		gap: 12px;
+		font-size: 15px;
+		padding: 0 0 12px 0;
+		background-color: #fff;
+	}
+
+	.syllabus__lessonsList {
+		gap: 10px;
+	}
+
+	.syllabus__lessonsDetail {
+		gap: 24px;
+	}
+
+	.syllabus__lessonsDetail p {
+		font-weight: 500;
+		margin-top: 12px;
+	}
+
+	.syllabus__lessonsDetail span {
+		font-size: 18px;
+	}
+
+	.syllabus__detailList {
+		gap: 10px;
+		font-size: 15px;
+		margin-top: 12px;
+	}
+
+	.syllabus__detailList li {
+		margin-top: 0;
+	}
+
+	.syllabus__submitBtnContainer {
+		text-align: center;
+		margin-top: 16px;
+	}
+
+	.syllabus__btnContainer {
+		padding-bottom: 25px;
+		margin-top: 20px;
+	}
 }

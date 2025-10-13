@@ -3,7 +3,9 @@ import styles from './Speakers.module.css';
 const Speakers = () => {
   return (
     <div className={styles.speakers}>
-      <h3 className={styles.speakers__title}>ТОП спікери</h3>
+      <div className={styles.speakers__title}>
+        <h3 className="">ТОП спікери</h3>
+      </div>
       <div className={styles.speakers__images}>
         <ul>
           <li className={styles.speakers__image}>

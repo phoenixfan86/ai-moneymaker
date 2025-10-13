@@ -11,7 +11,6 @@ const Packages = () => {
             {packages.map((pkg, index) => (
               <div key={index} className={styles.packages__cardContent}>
                 <div
-
                   className={styles.packages__cardItem}
                   style={{ border: `1px solid ${pkg.color}` }}
                 >

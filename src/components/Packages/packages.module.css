@@ -103,3 +103,27 @@
 	line-height: 1.4;
 	color: var(--text-04);
 }
+
+@media (max-width: 425px) {
+	.packages__container {
+		padding: 20px 16px;
+	}
+
+	.packages__container h2 {
+		font-size: 48px;
+		line-height: 1;
+	}
+
+	.packages__packageСards {
+		flex-direction: column;
+	}
+
+	.packages__packageBody {
+		padding: 18px 18px 26px 18px;
+	}
+
+	.packages__packageBody li,
+	.packages__info {
+		font-size: 15px;
+	}
+}
