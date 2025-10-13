@@ -69,3 +69,43 @@
 	display: flex;
 	gap: 27px;
 }
+
+@media (max-width: 425px) {
+	.footer {
+		padding: 20px;
+	}
+
+	.footer__content {
+		gap: 40px;
+		flex-direction: column;
+	}
+
+	.footer__info {
+		width: 100%;
+		align-items: center;
+	}
+
+	.footer__menu {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer__contact {
+		width: 100%;
+	}
+
+	.footer__contact p {
+		font-size: 14px;
+	}
+
+	.footer__footer {
+		flex-direction: column;
+	}
+
+	.footer__additionalLinks {
+		flex-direction: column;
+		gap: 15px;
+	}
+}

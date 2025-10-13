@@ -363,4 +363,39 @@ thead {
 	.table__itemContent {
 		font-size: 14px;
 	}
+
+	.table__markBody {
+		height: 40px;
+	}
+
+	.table__checkMarkPro {
+		width: 34px;
+		height: 34px;
+	}
+
+	.table__countdownTimer {
+		opacity: 0;
+	}
+
+	.table__proposal {
+		margin-top: 20px;
+	}
+
+	.table__proposal p {
+		font-size: 10px;
+	}
+
+	.table__price {
+		font-size: 16px;
+	}
+
+	.table__discount {
+		font-size: 40px;
+		line-height: 1;
+	}
+
+	.table__proposalBtn {
+		font-size: 12px;
+		padding: 12px;
+	}
 }

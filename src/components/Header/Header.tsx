@@ -39,7 +39,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <button className={styles.header__button}>Записатися на курс</button>
+        <a href="#format" className={styles.header__button}>Записатися на курс</a>
       </div>
     </header >
   );

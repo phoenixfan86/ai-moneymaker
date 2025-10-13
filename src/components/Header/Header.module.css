@@ -1,6 +1,6 @@
 header {
 	width: 100%;
-	margin: 22px 100px 0 100px;
+	padding: 22px 100px 0 100px;
 }
 
 .header__container {
@@ -78,6 +78,7 @@ header {
 
 @media (max-width: 425px) {
 	header {
+		padding: 0;
 		margin: 22px 0;
 	}
 

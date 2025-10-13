@@ -67,17 +67,22 @@
 }
 /*-- End Font --*/
 
-/*- * {
-	outline: 1px solid red;
-} -*/
+html {
+	scroll-behavior: smooth;
+}
 
 body {
-	max-width: 1440px;
-	width: 100%;
+	width: 1440px;
 	font-family: 'Gilroy', serif;
 	background-color: var(--bg-01);
 }
 
 button {
 	font-family: 'Gilroy', serif;
+}
+
+@media (max-width: 425px) {
+	body {
+		width: 425px;
+	}
 }

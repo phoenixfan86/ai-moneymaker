@@ -100,3 +100,42 @@
 	border-radius: 50%;
 	background-color: var(--primary-color);
 }
+
+@media (max-width: 425px) {
+	.installment {
+		padding: 20px;
+	}
+
+	.installment__container {
+		flex-direction: column;
+		gap: 60px;
+		align-items: center;
+		padding: 20px;
+	}
+
+	.installment__info {
+		width: 100%;
+	}
+
+	.installment__info h2 {
+		font-size: 38px;
+		text-align: center;
+	}
+
+	.installment__info p {
+		font-size: 16px;
+	}
+
+	.installment__offerValid {
+		padding: 30px 16px;
+	}
+
+	.installment__day {
+		font-size: 100px;
+	}
+
+	.installment__howTo {
+		width: 100%;
+		margin-left: 0;
+	}
+}

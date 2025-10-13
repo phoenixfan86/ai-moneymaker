@@ -199,12 +199,20 @@
 		flex-direction: column;
 	}
 
+	.intro__badge {
+		font-size: 14px;
+	}
+
 	.intro__titleFirst {
 		font-size: 200px;
 	}
 
 	.intro__title h1 {
 		font-size: 58px;
+	}
+
+	.intro__info p {
+		font-size: 18px;
 	}
 
 	.intro__quote {
