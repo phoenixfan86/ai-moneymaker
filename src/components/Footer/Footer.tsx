@@ -65,9 +65,7 @@ const Footer = () => {
               Україна, Київ, Майдан Незалежності, 2,
               Spaces Maidan Plaza, 02000
             </p>
-
-            <p>+7 495 241 07 87 (Росія),</p>
-
+            
             <p>+38 044 237 13 18 (Україна),</p>
 
             <a href="mailto:info@geniusmarketing.me">info@geniusmarketing.me</a>
